@@ -29,11 +29,16 @@
             background-color: blue;
             border-radius: 50px;
             position: relative;
-            left: 300px;
+            left: 280px;
+            transition: transform 1s ease-out 0.6s;
 
         }
+        
         .Field{
             background-color: rgb(202, 255, 237);
+        }
+        .Field:hover .ball {
+            transform: translate(1000px, -500px);
         }
 
 
